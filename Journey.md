@@ -1,4 +1,4 @@
-# 🚀 My Journey Building AI-Agent-Finance-Bot
+# My Journey Building First AI-Agent-Finance-Bot
 
 ## 1. Idea & Motivation
 I wanted to build an AI agent that explains **finance basics** in a simple, interactive way.  
