@@ -8,7 +8,7 @@ The goal was to learn Azure AI Foundry and document the process as a portfolio p
 
 ## 2. Bot Creation in Foundry
 - Opened **Azure AI Foundry Playground**.
-- Created a new agent named **FinGuide** (Finance Basics Bot).
+- Created a new agent named **Finance-Basics-Bot**.
 - Wrote clear instructions and examples for finance concepts (payroll, ledger, debit/credit).
 - Configured YAML for consistency and guardrails.
 
