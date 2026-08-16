@@ -7,14 +7,14 @@ The bot’s setup and parameters are defined in [agent-config.yaml](agent-config
 ## Project Journey
 For a detailed step‑by‑step record with screenshots and evaluation results, see [Finance Basics Bot.docx](Finance%20Basics%20Bot.docx).
 
-## 📸 Screenshots
+## Screenshots
 Visuals from the Playground, YAML configuration, Preview Web App, and evaluation results are available in the screenshots folder.
 
 ## Evaluation Results
 Accuracy: **(100)**  
 Metrics: relevance, latency, and correctness from Azure AI Foundry Evaluation tab.
 
-## 🧠 Tech Stack
+## Tech Stack
 - Azure AI Foundry  
 - GPT‑5 model  
 - YAML configuration  
