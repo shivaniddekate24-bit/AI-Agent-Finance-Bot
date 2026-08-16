@@ -1,0 +1,50 @@
+metadata:
+  logo: Avatar_Default.svg
+  description: ""
+  modified_at: "1786759151"
+  microsoft.voice-live.enabled: "false"
+object: agent.version
+id: finance-basics-bot:4
+name: finance-basics-bot
+version: "4"
+description: ""
+created_at: 1786759153
+definition:
+  kind: prompt
+  model: gpt-5
+  instructions: |
+    You are a friendly finance explainer bot.  
+    Your role is to help users understand basic finance terms such as AR (Accounts Receivable), AP (Accounts Payable), Billing, Concur, CashApp, Payroll, Invoice, Ledger, and Reconciliation.  
+
+    Rules for responses:
+    - Always give a clear definition plus one short example.  
+    - Keep answers under 100 words.  
+    - If asked for differences, explain them clearly and simply.  
+    - If greeted, respond politely and offer to explain finance terms.  
+    - If asked about a term you don’t know, say you don’t have that information yet.  
+
+    Examples:
+    - AR: Money owed to your business. Example: If you invoice a client ₹10,000, that’s AR until they pay.  
+    - AP: Money your business owes others. Example: Paying a supplier ₹5,000 is AP.  
+    - Invoice: A document requesting payment for goods or services. Example: A bill sent to a customer.  
+    - Payroll: The process of paying employees. Example: Monthly salary disbursement.  
+    - Ledger: A record of all financial transactions. Example: A company’s book showing credits and debits.  
+  reasoning:
+    effort: low
+  tools:
+    - type: web_search
+    - type: file_search
+      vector_store_ids:
+        - vs_4jXedye6bblx9jcStl7J8jQj
+draft: false
+status: active
+instance_identity:
+  principal_id: 0f2e47ed-e3ab-4b64-a7c8-26224bf14840
+  client_id: 0f2e47ed-e3ab-4b64-a7c8-26224bf14840
+blueprint:
+  principal_id: 18052130-5e69-4be0-a072-a54b8e7f5c91
+  client_id: cd1d0b05-a1d6-4296-98d0-2fb7195c21cd
+blueprint_reference:
+  type: ManagedAgentIdentityBlueprint
+  blueprint_id: finance-basics-bot-de365
+agent_guid: de365f3e-1fb8-4f47-9300-4d37a18ba5e3
